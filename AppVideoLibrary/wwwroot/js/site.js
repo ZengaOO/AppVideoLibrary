@@ -5,7 +5,7 @@
 
 const keyAPI = 'a3b568a8d4a540758083ef2215c4f334';
 const most_popular_url = `https://api.themoviedb.org/3/movie/popular?api_key=${keyAPI}&language=en-US&page=1`;
-const image_base = '~/images/movies/';
+const image_base = 'https://image.tmdb.org/t/p/w1280'
 const search_base_url = `https://api.themoviedb.org/3/search/movie?api_key=${keyAPI}&query=`;
 
 
